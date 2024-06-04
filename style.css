@@ -8,8 +8,26 @@ body {
 	background-color: #ff9b9b
 }
 
+.seymour-one-regular {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald-x {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h2 {
+  font-family: "Seymour One", sans-serif;
 	text-align: center;
+	font-size: 1em; 
+	text-transform: uppercase; 
+	letter-spacing: .5em; 
+	color: black;
 }
 
 .nav ul li {
@@ -26,6 +44,16 @@ footer {
 	text-align: center;
 }
 
+containerl {
+	align-items: left;
+}
+
+.seymour-one-regular {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .container {
 	width: 100%;
 	min-height: 10vh;
@@ -38,6 +66,7 @@ footer {
 .text span {
 	font-size: 60px;
 	padding: 0 10px;
+  font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	animation: invert 1s linear infinite;
